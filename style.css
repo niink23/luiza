@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 150px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 300px;
+  border-radius: 35px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.box h1 {
+  color: red;
+  font-size: 55px;
+  font-family: 'JetBrains Mono';
+}
+.box p {
+  width: 350px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
